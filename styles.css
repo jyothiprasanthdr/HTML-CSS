@@ -1,0 +1,137 @@
+body {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-left: 10%;
+  margin-top: 2rem;
+}
+
+header > img {
+  display: block;
+  width: 100%;
+  height: 20%;
+}
+
+nav ul {
+  text-align: center;
+  list-style: none;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: black;
+}
+nav li {
+  display: inline-block;
+  margin: 1%;
+}
+nav a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: large;
+}
+
+main section {
+  position: relative;
+}
+main section .promo {
+  position: relative;
+}
+main section .promo img {
+  width: 100%;
+  height: 600px;
+  display: block;
+  object-fit: cover;
+}
+main section .promo #off {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 6rem;
+  z-index: 1;
+  font-weight: bolder;
+}
+main section .promo #off_desc {
+  position: absolute;
+  top: 60%;
+  left: 0%;
+  color: white;
+  text-align: center;
+  white-space: normal;
+  font-size: large;
+  font-size: 2rem;
+}
+
+.container {
+  margin-top: 4rem;
+  display: flex;
+  gap: 5%;
+  height: 35rem;
+}
+
+.container article {
+  background-color: rgb(233, 183, 163);
+}
+
+.container img {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  height: 250px;
+  object-fit: cover;
+}
+.container p {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  height: 100px;
+}
+.container a {
+  margin-left: 10%;
+  margin-bottom: 10rem;
+}
+
+/* footer {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: auto, auto;
+}
+
+footer > div {
+  display: inline;
+  margin-top: 1rem;
+  height: 100px;
+  width: 100%;
+}
+footer div img {
+  object-fit: cover;
+
+  height: auto;
+  width: 36px;
+} */
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 2 columns */
+  padding: 10px;
+}
+
+footer div {
+  padding: 10px;
+}
+footer img {
+  object-fit: cover;
+  width: 36px;
+  height: auto;
+}
+footer p {
+  text-align: right;
+}
